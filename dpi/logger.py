@@ -1,0 +1,1 @@
+# Logs detected URLs to the database

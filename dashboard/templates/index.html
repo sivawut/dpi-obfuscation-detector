@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>DPI Dashboard</title></head>
+<body>
+<h2>Detected URLs</h2>
+<table border="1">
+<tr><th>URL</th><th>Source IP</th><th>Timestamp</th></tr>
+{% for url, ip, time in data %}
+<tr><td>{{ url }}</td><td>{{ ip }}</td><td>{{ time }}</td></tr>
+{% endfor %}
+</table>
+</body>
+</html>
